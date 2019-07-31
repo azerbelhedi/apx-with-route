@@ -1,0 +1,2 @@
+"use strict";!function(i){i(".cience-case-studies").each(function(){var s=i(this).find(".items"),e=i(this).find(".thumbnails");s.slick({slidesToShow:1,slidesToScroll:1,arrows:!0,fade:!0,asNavFor:!!e.length&&".thumbnails",autoplay:!0,autoplaySpeed:5e3,infinite:!0});e&&e.slick({slidesToShow:3,slidesToScroll:3,asNavFor:".items",dots:!0,centerMode:!0,focusOnSelect:!0,responsive:[{breakpoint:979,settings:{slidesToShow:2}}]})})}(jQuery);
+//# sourceMappingURL=cience-case-studies.min.js.map

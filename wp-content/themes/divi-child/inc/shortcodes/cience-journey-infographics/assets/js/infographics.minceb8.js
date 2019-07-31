@@ -1,0 +1,2 @@
+"use strict";!function(e){(new WOW).init();var a=e(".sj__buffer-page__map #squares");e(".sj__buffer-page__map [data-item]").hover(function(){a.find("a").removeClass("hover"),a.find("#square-"+e(this).data("item")).addClass("hover")},function(){a.find("a").removeClass("hover")})}(jQuery);
+//# sourceMappingURL=infographics.min.js.map
