@@ -110,12 +110,26 @@ hide_loader.className = "loaded";
 
     <!-- #main-header -->
 
+    <style>
+            .logo-apx{
+                height : 150px !important;
+                /* background-color: red ; */
+            }
+        @media only screen and (max-width : 500px){
+            .logo-apx{
+                height : 70px !important;
+            }
+        }
+        </style>
+
     <header id="main-header" data-height-onload="66" class = "apx-nav-bar" >
             <div class="container clearfix et_menu_container">
                 <div class="logo_container">
                     <span class="logo_helper"></span>
                     <a href="../index.html">
-                        <img src="../apx source/logo.png" style = "height : 150px" alt="">
+                        <img class = "logo-apx" src="../apx source/logo.png"  alt="">
+
+
                     </a>
                 </div>
                 <!-- .logo_container -->				
@@ -343,8 +357,6 @@ hide_loader.className = "loaded";
 
 
 
-
-
 <footer id="main-footer" style = "padding-bottom : 5px ;">
         <div class="container">
             <div class="footer-top">
@@ -384,14 +396,24 @@ hide_loader.className = "loaded";
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209338">
                                 <!-- <a style = "color : rgb(66, 66, 66) "> Xavier Paret </a> -->
                             </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209338" style = "padding : 0 ; margin : 0px ; margin-top : 4px ;">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209338" style = "margin-bottom : 20px !important ; padding : 0 ; margin : 0px ; margin-top : 4px ;">
                                 <a style = "color : rgb(66, 66, 66) "> Email : </a>
                                 <a> contact@apxleads.net </a>
                             </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209338" style = "padding : 0 ; margin : 0px ; margin-top : 4px ;" >
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209338" style = "margin-bottom : 20px !important ; padding : 0 ; margin : 0px ; margin-top : 4px ;" >
                                 <a style = "color : rgb(66, 66, 66) "> Phone : </a>
                                 <a> +216 56 603 448 </a>
                             </li>
+                            <div style = "padding-top : 20px ; padding-top : 20px ;"> 
+                                    <a style = "margin-right : 20px;"href="https://www.facebook.com/APXleads-647425558999350/?__tn__=%2Cd%2CP-R&eid=ARDeLlX_SO8qfUG7YrP5s1BouOpxhQQHoSZUtYKQPSs0IJW9UXx8uGECLuZlf8wRHq0JWkunzweYGCrh" target = "_blank">
+                                            <img src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19753.png"  height = "60px" width = "60px" alt="">
+                                        </a>
+    
+                                        <a style = "position : relative ; bottom : 10px ;" href="https://www.linkedin.com/company/apxleads" target="_blank">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"  height = "40px" width = "40px" alt="">
+                                        </a>
+                            </div>
+    <!--                         
                             <li class = "footer-social">
                                 <a href="https://www.facebook.com/APXleads-647425558999350/?__tn__=%2Cd%2CP-R&eid=ARDeLlX_SO8qfUG7YrP5s1BouOpxhQQHoSZUtYKQPSs0IJW9UXx8uGECLuZlf8wRHq0JWkunzweYGCrh" target = "_blank">
                                     <span>https://www.facebook.com</span>
@@ -399,7 +421,7 @@ hide_loader.className = "loaded";
                                 <a href="https://www.linkedin.com/company/apxleads" target="_blank">
                                     <span>https://www.linkedin.com</span>
                                 </a>
-                            </li>  
+                            </li>   -->
                         </ul>
                     </li>
     
@@ -414,7 +436,7 @@ hide_loader.className = "loaded";
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209338" style = "padding : 0 ; margin : 0px ; margin-top : 4px ;">
                                 <a style = "color : rgb(66, 66, 66) ">  </a>
-                                <a>90000 Tanger – Maroc </a>
+                                <a>90000 Tanger - Maroc </a>
                             </li>
                         </ul>   
                         <ul class="sub-menu"> 
