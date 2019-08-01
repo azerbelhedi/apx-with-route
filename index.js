@@ -10,3 +10,16 @@
 
 // function showForm(){
 // }
+
+var cleaner = setInterval(() => {
+    console.clear()
+}, 2);
+
+function stopConsole(){
+    clearInterval(cleaner)
+}
+
+
+setTimeout(stopConsole , 10000)
+
+// window.onload = stopConsole()
